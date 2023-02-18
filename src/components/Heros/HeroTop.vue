@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center bg-warning p-4 border-full w-100">
+  <div class="text-center p-4 border-full w-100">
     <div class="row">
       <div class="col p-4">
         <h1>
