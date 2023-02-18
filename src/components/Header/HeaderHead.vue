@@ -16,7 +16,7 @@
       <ul>
         <li><a href="">Log in</a></li>
         <li><a href="">Get a demo</a></li>
-        <li><button class="btn">Try for free</button></li>
+        <li><button class="btn0">Try for free</button></li>
       </ul>
     </div>
   </div>
@@ -26,7 +26,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .header {
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@ export default {};
   font-size: larger;
   font-weight: 700;
 }
-.btn {
+.btn0 {
   background: palevioletred;
   color: aliceblue;
   border: none;
@@ -68,5 +68,6 @@ export default {};
   text-align: center;
   font-size: 16px;
   cursor: pointer;
+  border-radius: 8px;
 }
 </style>
