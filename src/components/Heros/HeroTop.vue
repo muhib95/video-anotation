@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center bg-warning p-4 border-full">
+  <div class="text-center bg-warning p-4 border-full w-100">
     <div class="row">
       <div class="col p-4">
         <h1>
@@ -22,11 +22,15 @@
         <div class="heroall-img">
           <div class="d-flex">
             <div class="hero-div">
-              <img class="hero-img" src="../../assets/hero-menu.webp" alt="" />
+              <img
+                class="hero-img img-fluid"
+                src="../../assets/hero-menu.webp"
+                alt=""
+              />
             </div>
             <div class="hero-div1">
               <img
-                class="hero-img1"
+                class="hero-img1 img-fluid"
                 src="../../assets/ezgif-2-53bbab6acd.gif"
                 alt=""
               />
@@ -35,14 +39,14 @@
           <div class="d-flex">
             <div>
               <img
-                class="hero-img2"
+                class="hero-img2 img-fluid"
                 src="../../assets/ezgif-2-9524061fd4.gif"
                 alt=""
               />
             </div>
             <div>
               <img
-                class="hero-img3"
+                class="hero-img3 img-fluid"
                 src="../../assets/ezgif-2-97294c8896.gif"
                 alt=""
               />
