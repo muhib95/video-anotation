@@ -2,6 +2,7 @@
   <Header />
   <Hero />
   <Company />
+  <Principles />
   <Footer />
 </template>
 
@@ -10,6 +11,7 @@ import Header from "./components/Header/HeaderHead";
 import Footer from "./components/Footer/FooterFoot";
 import Hero from "./components/Heros/HeroTop.vue";
 import Company from "./components/Company/CompanyBrand.vue";
+import Principles from "./components/Principles/PrinciplesSupervisely.vue";
 export default {
   name: "App",
   components: {
@@ -17,6 +19,7 @@ export default {
     Footer,
     Hero,
     Company,
+    Principles,
   },
 };
 </script>
